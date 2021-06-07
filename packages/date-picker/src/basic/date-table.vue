@@ -139,7 +139,7 @@
         for (let i = 0; i < 6; i++) {
           const row = rows[i];
           if (this.showWeekNumber) {
-            row[0] = { type: 'week', text: getWeekNumber(this.getDateOfCell(i, 1)) };
+            row[0] = { type: 'week', text: getWeekNumber(this.getDateOfCell(i, 2)) };
           }
           for (let j = 0; j < 7; j++) {
             let cell = row[this.showWeekNumber ? j + 1 : j];
